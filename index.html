@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Get a Quote | Tiled by Tyler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="logo-wrap">
+      <div class="logo-badge"><span>TBT</span></div>
+      <div>
+        <div class="logo-text-main">Tiled by Tyler</div>
+        <div class="logo-text-sub">Precision tiling • Brisbane</div>
+      </div>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Quote</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="section-header">
+      <div class="section-kicker">Get a quote</div>
+      <h1 class="section-title">Tell me about your tiling project.</h1>
+      <p class="section-subtitle">
+        Share a few details and I’ll come back with an estimate or organise a site visit in Brisbane.
+      </p>
+    </div>
+
+    <div class="contact-layout">
+      <div>
+        <form action="#" method="post">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="Mobile number" />
+          </div>
+
+          <div>
+            <label for="suburb">Suburb</label>
+            <input id="suburb" name="suburb" type="text" placeholder="e.g. Newstead, Carindale" />
+          </div>
+
+          <div>
+            <label for="service">Type of work</label>
+            <select id="service" name="service">
+              <option>Bathroom / ensuite</option>
+              <option>Kitchen splashback</option>
+              <option>Floor tiling</option>
+              <option>Outdoor / patio</option>
+              <option>Waterproofing only</option>
+              <option>Repairs / re‑grouting</option>
+              <option>Other / not sure</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="details">Project details</label>
+            <textarea id="details" name="details"
+                      placeholder="Size of the area, tile type if known, timing, and anything else that helps."></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Send enquiry</button>
+        </form>
+      </div>
+
+      <aside class="contact-details">
+        <p class="contact-chip">Based in Brisbane, QLD</p>
+        <p>
+          I usually reply within one business day. If you can, attach plans or photos when you reply
+          to the quote email so I can be as accurate as possible.
+        </p>
+        <p><strong>Typical hours</strong><br />Mon–Fri · 7:00am – 4:00pm</p>
+        <p style="margin-top:0.6rem;">
+          Prefer to call or text?<br />
+          <strong>Phone:</strong> 04xx xxx xxx (your number here)
+        </p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Tiled by Tyler (TBT).</span>
+    <span>Website theme inspired by TBT workwear colours.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

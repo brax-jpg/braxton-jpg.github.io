@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gallery | Tiled by Tyler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="logo-wrap">
+      <div class="logo-badge"><span>TBT</span></div>
+      <div>
+        <div class="logo-text-main">Tiled by Tyler</div>
+        <div class="logo-text-sub">Precision tiling • Brisbane</div>
+      </div>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Quote</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="section-header">
+      <div class="section-kicker">Gallery</div>
+      <h1 class="section-title">Recent tiling projects.</h1>
+      <p class="section-subtitle">
+        A mix of bathrooms, splashbacks and floor jobs. Imagine your space with this level of finish.
+      </p>
+    </div>
+
+    <div class="gallery-grid">
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80"
+             alt="Modern tiled bathroom" />
+        <figcaption class="gallery-caption">Full bathroom retile • West End</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1617099404995-0a2b4f3a9c9a?auto=format&fit=crop&w=900&q=80"
+             alt="Feature wall tiles" />
+        <figcaption class="gallery-caption">Feature wall with niche • Newstead</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1582719478250-cc70d3d45ba1?auto=format&fit=crop&w=900&q=80"
+             alt="Tiled shower area" />
+        <figcaption class="gallery-caption">Walk‑in shower • Carindale</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1600585154340-0ef3c08c0632?auto=format&fit=crop&w=900&q=80"
+             alt="Kitchen splashback tiles" />
+        <figcaption class="gallery-caption">Subway splashback • Paddington</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80"
+             alt="Large format floor tiles" />
+        <figcaption class="gallery-caption">Large format floor • Indooroopilly</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1617099404995-0a2b4f3a9c9a?auto=format&fit=crop&w=900&q=80"
+             alt="Close up of tile pattern" />
+        <figcaption class="gallery-caption">Detail & grout lines • Various jobs</figcaption>
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Tiled by Tyler (TBT).</span>
+    <span><a href="contact.html">Like what you see? Get a quote →</a></span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

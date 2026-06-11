@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Tiled by Tyler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="logo-wrap">
+      <div class="logo-badge"><span>TBT</span></div>
+      <div>
+        <div class="logo-text-main">Tiled by Tyler</div>
+        <div class="logo-text-sub">Precision tiling • Brisbane</div>
+      </div>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Quote</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="section-header">
+      <div class="section-kicker">About TBT</div>
+      <h1 class="section-title">A tiler who actually cares about the small stuff.</h1>
+      <p class="section-subtitle">
+        Tiled by Tyler is a small, owner‑operated tiling business based in Brisbane, focused on
+        quality over volume.
+      </p>
+    </div>
+
+    <div class="about-layout">
+      <div class="about-text">
+        <p>
+          I’m Tyler, the tiler behind TBT. I’ve spent years on the tools across bathrooms, kitchens,
+          floors and outdoor areas around Brisbane. Over that time I’ve learnt that the difference
+          between “good enough” and “that looks unreal” is all in the prep and the details.
+        </p>
+        <p>
+          I keep job numbers low so I can stay on‑site, on the tools and in control of the finish.
+          You’ll deal with me from quote through to final clean‑up—no disappearing act once the job
+          starts.
+        </p>
+        <p>
+          Whether it’s a small splashback or a full bathroom, I’ll walk you through tile layout,
+          grout colour, trims and falls so you know exactly what you’re getting before the first tile
+          is laid.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat">
+            <strong>10+</strong>
+            <span>years tiling experience</span>
+          </div>
+          <div class="stat">
+            <strong>100+</strong>
+            <span>completed bathrooms & kitchens</span>
+          </div>
+          <div class="stat">
+            <strong>5★</strong>
+            <span>word‑of‑mouth focus</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="about-highlight">
+        <p><strong>How I work</strong></p>
+        <p>
+          • Clear start and finish dates<br />
+          • Respect for your home—dust control & tidy sites<br />
+          • Honest advice on tile choice and layout<br />
+          • Photos and updates as the job progresses
+        </p>
+        <p style="margin-top:0.7rem;">
+          If you want a tiler who treats your place like their own, let’s talk about your project.
+        </p>
+      </aside>
+    </div>
+
+   <form action="https://formspree.io/f/meewlrel" method="POST">
+  <div>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Your name" required />
+  </div>
+
+  <div>
+    <label for="email">Email</label>
+    <input id="email" name="_replyto" type="email" placeholder="you@example.com" required />
+  </div>
+
+  <div>
+    <label for="phone">Phone</label>
+    <input id="phone" name="phone" type="tel" placeholder="Mobile number" />
+  </div>
+
+  <div>
+    <label for="suburb">Suburb</label>
+    <input id="suburb" name="suburb" type="text" placeholder="e.g. Newstead, Carindale" />
+  </div>
+
+  <div>
+    <label for="service">Type of work</label>
+    <select id="service" name="service">
+      <option>Bathroom / ensuite</option>
+      <option>Kitchen splashback</option>
+      <option>Floor tiling</option>
+      <option>Outdoor / patio</option>
+      <option>Waterproofing only</option>
+      <option>Repairs / re‑grouting</option>
+      <option>Other / not sure</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="details">Project details</label>
+    <textarea id="details" name="details"
+              placeholder="Size of the area, tile type if known, timing, and anything else that helps."></textarea>
+  </div>
+
+  <!-- Optional: change to your real thank-you page or remove -->
+  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html" />
+  <input type="hidden" name="_subject" value="New TBT quote request" />
+
+  <button type="submit" class="btn-primary">Send enquiry</button>
+</form>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Tiled by Tyler (TBT).</span>
+    <span><a href="contact.html">Ready when you are →</a></span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
